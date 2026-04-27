@@ -46,243 +46,68 @@
   ],
   "projects": [
     {
-      "id": 1,
-      "title": "Zenith E-Commerce",
+      "id": 0,
+      "title": "Greenie Culture",
       "category": "Fullstack",
-      "image": "https://images.unsplash.com/photo-1472851294608-062f824d29cc?q=80&w=1470&auto=format&fit=crop",
-      "description": "A high-performance enterprise commerce solution featuring real-time inventory and global payments.",
-      "tools": ["React", "Node.js", "Stripe", "Redux"],
-      "liveLink": "https://google.com",
-      "githubLink": "https://github.com",
+      "image": "/greenie-culture.png",
+      "description": "Smart Eco Plant Management System. A comprehensive platform for plant enthusiasts to purchase, manage, and track the health of their indoor gardens.",
+      "tools": ["Angular", "Node.js", "Express", "MongoDB Atlas"],
+      "liveLink": "https://greenie-culture.example.com",
+      "githubLink": "https://github.com/nikita17046-netize/greenie-culture",
       "details": {
-        "problem": "Traditional e-commerce platforms suffered from high bounce rates due to slow page loads and complex checkout flows.",
-        "solution": "Architected a headless commerce solution using Next.js for SSG/ISR, resulting in a 40% improvement in LCP and a 25% increase in conversion rates.",
-        "challenges": "Implementing robust state synchronization across multiple server-side generated pages and optimizing heavy image assets for mobile.",
-        "learnings": "Mastered advanced caching strategies and the intricacies of Stripe's webhooks for reliable payment processing."
+        "problem": "Plant lovers often struggle with maintaining plant health and finding a reliable source for purchasing diverse plant species.",
+        "solution": "Developed a comprehensive management system that tracks plant health and provides a seamless e-commerce experience for plant enthusiasts using the MEAN stack.",
+        "challenges": "Integrating real-time health tracking data and managing a large inventory of plant species with varying care requirements.",
+        "learnings": "Deepened knowledge in MEAN stack development and implementing efficient database schemas for complex inventory management."
+      }
+    },
+    {
+      "id": 1,
+      "title": "Aura Soap",
+      "category": "Fullstack",
+      "image": "/aura-soap.png",
+      "description": "Luxury handmade soap e-commerce platform with an editorial aesthetic and a focus on natural ingredients.",
+      "tools": ["Next.js", "Node.js", "Express", "MongoDB"],
+      "liveLink": "https://soap.dfinfo.online",
+      "githubLink": "https://github.com/nikita17046-netize/aura-soap",
+      "details": {
+        "problem": "Generic soap brands lack the artisanal touch and detailed ingredient transparency that luxury consumers demand.",
+        "solution": "Built a premium boutique experience that combines editorial-style storytelling with a streamlined shopping cart and secure checkout.",
+        "challenges": "Implementing high-performance image rendering for luxury product shots and building a responsive boutique-style layout.",
+        "learnings": "Mastered Next.js server-side rendering for SEO optimization and refined CSS transitions for a high-end feel."
       }
     },
     {
       "id": 2,
-      "title": "Neural Muse AI",
-      "category": "Frontend",
-      "image": "https://images.unsplash.com/photo-1677442136019-21780ecad995?q=80&w=1632&auto=format&fit=crop",
-      "description": "Modern AI dashboard for art generation using sophisticated prompt engineering and multi-model support.",
-      "tools": ["Tailwind", "OpenAI API", "Framer Motion"],
-      "liveLink": "https://google.com",
-      "githubLink": "https://github.com",
+      "title": "Health & Fitness Club",
+      "category": "Fullstack",
+      "image": "/fitness-club.png",
+      "description": "Comprehensive fitness club management system featuring workout tracking, trainer booking, and membership management.",
+      "tools": ["React", "Node.js", "Express", "MongoDB"],
+      "liveLink": "https://fitness-club.example.com",
+      "githubLink": "https://github.com/nikita17046-netize/health-fitness-club",
       "details": {
-        "problem": "AI generation tools often provide overwhelming interfaces that intimidate non-technical creative users.",
-        "solution": "Designed a minimal, intentional UI that uses step-by-step progressive disclosure to guide users from prompt to masterpiece.",
-        "challenges": "Managing asynchronous API streams for real-time image generation while maintaining 60FPS UI performance.",
-        "learnings": "Gained deep insights into prompt engineering and efficient handling of large binary data streams in the browser."
+        "problem": "Gym members often struggle to track their progress and book sessions efficiently across multiple platforms.",
+        "solution": "Integrated all club operations into a single MERN-stack dashboard, providing real-time tracking and seamless scheduling.",
+        "challenges": "Managing complex state for real-time workout updates and ensuring a highly responsive UI for mobile users in the gym.",
+        "learnings": "Gained deep experience in MERN stack integration and implementing secure user authentication for member data privacy."
       }
     },
     {
       "id": 3,
-      "title": "Astra Analytics",
+      "title": "Clothing Store",
       "category": "Fullstack",
-      "image": "https://images.unsplash.com/photo-1551288049-bb848a55a175?q=80&w=1470&auto=format&fit=crop",
-      "description": "Real-time data visualization platform for SaaS companies with predictive churn modeling.",
-      "tools": ["Next.js", "D3.js", "PostgreSQL"],
-      "liveLink": "https://google.com",
-      "githubLink": "https://github.com",
+      "image": "/clothing-store.png",
+      "description": "Modern fashion e-commerce platform with dynamic category filtering and a seamless shopping experience.",
+      "tools": ["Next.js", "Node.js", "Express", "MongoDB"],
+      "liveLink": "https://clothing-store.example.com",
+      "githubLink": "https://github.com/nikita17046-netize/clothing-store",
       "details": {
-        "problem": "Companies had data but couldn't derive actionable insights in real-time.",
-        "solution": "Built a custom D3 dashboard integrated with a streaming data pipeline.",
-        "challenges": "Handling massive concurrent WebSocket connections.",
-        "learnings": "Advanced SQL optimization and real-time data streaming patterns."
+        "problem": "Online fashion shoppers need a fast, intuitive way to browse collections and manage their style preferences.",
+        "solution": "Developed a high-performance clothing store using Next.js, featuring real-time inventory and a refined user interface.",
+        "challenges": "Optimizing large product catalogs and ensuring pixel-perfect responsiveness across all devices.",
+        "learnings": "Deepened understanding of e-commerce state management and advanced Next.js optimization techniques."
       }
-    },
-    {
-      "id": 4,
-      "title": "Crypto Pulse",
-      "category": "Frontend",
-      "image": "https://images.unsplash.com/photo-1621761191319-c6fb62004040?q=80&w=1374&auto=format&fit=crop",
-      "description": "A live cryptocurrency tracker with sentiment analysis from social media feeds.",
-      "tools": ["React", "ApexCharts", "CoinGecko API"],
-      "liveLink": "https://google.com",
-      "githubLink": "https://github.com",
-      "details": {
-        "problem": "Traders need more than just price; they need sentiment.",
-        "solution": "Integrated Twitter API to perform real-time sentiment analysis on top coins.",
-        "challenges": "Rate limiting and data normalization from varied sources.",
-        "learnings": "Mastered complex state management and API orchestration."
-      }
-    },
-    {
-      "id": 5,
-      "title": "Eco Flow",
-      "category": "Backend",
-      "image": "https://images.unsplash.com/photo-1497435334941-8c899ee9e8e9?q=80&w=1375&auto=format&fit=crop",
-      "description": "Inventory management API for sustainable supply chains with carbon footprint tracking.",
-      "tools": ["Node.js", "GraphQL", "Redis"],
-      "liveLink": "https://google.com",
-      "githubLink": "https://github.com",
-      "details": {
-        "problem": "Transparency in supply chains is often missing at the carbon level.",
-        "solution": "Created a GraphQL API that calculates carbon offsets for each shipping step.",
-        "challenges": "Complex recursive queries for deep supply chain structures.",
-        "learnings": "Deep understanding of GraphQL performance and backend caching."
-      }
-    },
-    {
-      "id": 6,
-      "title": "Nexus Social",
-      "category": "Fullstack",
-      "image": "https://images.unsplash.com/photo-1522202176988-66273c2fd55f?q=80&w=1471&auto=format&fit=crop",
-      "description": "Decentralized social networking concept with user-owned data and privacy controls.",
-      "tools": ["React", "Firebase", "Web3.js"],
-      "liveLink": "https://google.com",
-      "githubLink": "https://github.com",
-      "details": {
-        "problem": "Centralized social media compromises user data privacy.",
-        "solution": "Built a proof-of-concept social network where data is stored on decentralized nodes.",
-        "challenges": "Ensuring fast data retrieval from a decentralized network.",
-        "learnings": "Exploration of Web3 technologies and decentralized identity."
-      }
-    },
-    {
-      "id": 8,
-      "title": "Zenith Wallet",
-      "category": "Fullstack",
-      "image": "https://images.unsplash.com/photo-1563986768609-322da13575f3?q=80&w=1470&auto=format&fit=crop",
-      "description": "Secure digital wallet with multi-currency support and real-time exchange rates.",
-      "tools": ["React", "Express", "MongoDB"],
-      "liveLink": "https://google.com",
-      "githubLink": "https://github.com",
-      "details": { "problem": "Managing multiple currencies is hard.", "solution": "A centralized secure wallet.", "challenges": "API security.", "learnings": "Encryption." }
-    },
-    {
-      "id": 9,
-      "title": "Aero Travel",
-      "category": "Frontend",
-      "image": "https://images.unsplash.com/photo-1436491865332-7a61a109c0f?q=80&w=1470&auto=format&fit=crop",
-      "description": "Immersive travel booking experience with 3D map integrations.",
-      "tools": ["Three.js", "React", "Tailwind"],
-      "liveLink": "https://google.com",
-      "githubLink": "https://github.com",
-      "details": { "problem": "Travel sites are flat.", "solution": "3D visualization.", "challenges": "Performance.", "learnings": "WebGL." }
-    },
-    {
-      "id": 10,
-      "title": "Health Sync",
-      "category": "Fullstack",
-      "image": "https://images.unsplash.com/photo-1505751172876-fa1923c5c528?q=80&w=1470&auto=format&fit=crop",
-      "description": "Telemedicine platform with real-time patient-doctor video consultations.",
-      "tools": ["WebRTC", "Socket.io", "React"],
-      "liveLink": "https://google.com",
-      "githubLink": "https://github.com",
-      "details": { "problem": "Remote healthcare access.", "solution": "Video consultation.", "challenges": "Latency.", "learnings": "Real-time comms." }
-    },
-    {
-      "id": 11,
-      "title": "Pixel Art Editor",
-      "category": "Frontend",
-      "image": "https://images.unsplash.com/photo-1550745679-3310486da347?q=80&w=1470&auto=format&fit=crop",
-      "description": "Browser-based pixel art creator with layer support and gif export.",
-      "tools": ["Canvas API", "React", "Redux"],
-      "liveLink": "https://google.com",
-      "githubLink": "https://github.com",
-      "details": { "problem": "Lack of simple pixel art tools.", "solution": "Canvas based editor.", "challenges": "Undo/Redo logic.", "learnings": "Canvas state." }
-    },
-    {
-      "id": 12,
-      "title": "Quantum CRM",
-      "category": "Backend",
-      "image": "https://images.unsplash.com/photo-1460925895917-afdab827c52f?q=80&w=1426&auto=format&fit=crop",
-      "description": "High-load CRM backend managing millions of client relationships.",
-      "tools": ["Go", "Docker", "Nats"],
-      "liveLink": "https://google.com",
-      "githubLink": "https://github.com",
-      "details": { "problem": "CRM lag.", "solution": "Microservices in Go.", "challenges": "Data consistency.", "learnings": "Distributed systems." }
-    },
-    {
-      "id": 13,
-      "title": "Lumina Blog",
-      "category": "Frontend",
-      "image": "https://images.unsplash.com/photo-1486312338219-ce68d2c6f44d?q=80&w=1472&auto=format&fit=crop",
-      "description": "A minimal, readability-focused blog template for tech writers.",
-      "tools": ["Astro", "MDX", "Tailwind"],
-      "liveLink": "https://google.com",
-      "githubLink": "https://github.com",
-      "details": { "problem": "Cluttered blogs.", "solution": "Minimalist design.", "challenges": "SEO.", "learnings": "Static generation." }
-    },
-    {
-      "id": 14,
-      "title": "Trade Vision",
-      "category": "Fullstack",
-      "image": "https://images.unsplash.com/photo-1590283603385-17ffb3a7f29f?q=80&w=1470&auto=format&fit=crop",
-      "description": "Stock market dashboard with technical indicator overlays.",
-      "tools": ["React", "TradingView API", "Node.js"],
-      "liveLink": "https://google.com",
-      "githubLink": "https://github.com",
-      "details": { "problem": "Scattered trading data.", "solution": "Unified dashboard.", "challenges": "Large datasets.", "learnings": "Financial APIs." }
-    },
-    {
-      "id": 15,
-      "title": "Sonic Stream",
-      "category": "Fullstack",
-      "image": "https://images.unsplash.com/photo-1493225255756-d9584f8606e9?q=80&w=1470&auto=format&fit=crop",
-      "description": "High-fidelity music streaming service with spatial audio support.",
-      "tools": ["React", "AWS S3", "Howler.js"],
-      "liveLink": "https://google.com",
-      "githubLink": "https://github.com",
-      "details": { "problem": "Audio quality loss.", "solution": "Lossless streaming.", "challenges": "Buffering.", "learnings": "Audio APIs." }
-    },
-    {
-      "id": 16,
-      "title": "Vortex Engine",
-      "category": "Backend",
-      "image": "https://images.unsplash.com/photo-1558494949-ef010ccdcc39?q=80&w=1674&auto=format&fit=crop",
-      "description": "Ultra-fast search engine backend for local libraries.",
-      "tools": ["Rust", "ElasticSearch", "Redis"],
-      "liveLink": "https://google.com",
-      "githubLink": "https://github.com",
-      "details": { "problem": "Slow search.", "solution": "Rust backend.", "challenges": "Indexing.", "learnings": "Search algorithms." }
-    },
-    {
-      "id": 17,
-      "title": "Nebula VR",
-      "category": "Frontend",
-      "image": "https://images.unsplash.com/photo-1592477942940-501170792f9e?q=80&w=1470&auto=format&fit=crop",
-      "description": "Virtual reality store interface for the future of e-commerce.",
-      "tools": ["A-Frame", "React", "Cannon.js"],
-      "liveLink": "https://google.com",
-      "githubLink": "https://github.com",
-      "details": { "problem": "Flat e-comm.", "solution": "VR shopping.", "challenges": "UX in VR.", "learnings": "Physics engines." }
-    },
-    {
-      "id": 18,
-      "title": "Focus Timer",
-      "category": "Frontend",
-      "image": "https://images.unsplash.com/photo-1434030216411-0b793f4b4173?q=80&w=1470&auto=format&fit=crop",
-      "description": "A Pomodoro timer with gamified productivity tracking.",
-      "tools": ["React", "Local Storage", "Framer Motion"],
-      "liveLink": "https://google.com",
-      "githubLink": "https://github.com",
-      "details": { "problem": "Procrastination.", "solution": "Gamification.", "challenges": "State persistence.", "learnings": "Game loops." }
-    },
-    {
-      "id": 19,
-      "title": "Shield VPN",
-      "category": "Backend",
-      "image": "https://images.unsplash.com/photo-1563986768609-322da13575f3?q=80&w=1470&auto=format&fit=crop",
-      "description": "Personal VPN endpoint manager with traffic monitoring.",
-      "tools": ["Python", "WireGuard", "Flask"],
-      "liveLink": "https://google.com",
-      "githubLink": "https://github.com",
-      "details": { "problem": "Privacy.", "solution": "Custom VPN control.", "challenges": "Network security.", "learnings": "Net protocols." }
-    },
-    {
-      "id": 20,
-      "title": "Zen Garden",
-      "category": "Frontend",
-      "image": "https://images.unsplash.com/photo-1585314062340-f1a5a7c9328d?q=80&w=1374&auto=format&fit=crop",
-      "description": "A peaceful, interactive ambient soundscape generator.",
-      "tools": ["Web Audio API", "React", "SVG Animation"],
-      "liveLink": "https://google.com",
-      "githubLink": "https://github.com",
-      "details": { "problem": "Stress.", "solution": "Ambient sounds.", "challenges": "Audio mixing.", "learnings": "Synths." }
     }
   ],
   "blogs": [

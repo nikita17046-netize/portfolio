@@ -1,28 +1,6 @@
-@import "tailwindcss";
-@variant dark (&:where(.dark, .dark *));
-
-@theme {
-  --color-primary-light: #6366f1;
-  --color-primary-dark: #4f46e5;
-  --color-secondary-light: #ec4899;
-  --color-secondary-dark: #db2777;
-  --color-background-light: #f8fafc;
-  --color-background-dark: #0f172a;
-  --color-card-light: #ffffff;
-  --color-card-dark: #1e293b;
-
-  --animate-gradient: gradient 8s linear infinite;
-  --animate-float: float 3s ease-in-out infinite;
-
-  @keyframes gradient {
-    0%, 100% { background-size: 200% 200%; background-position: left center; }
-    50% { background-size: 200% 200%; background-position: right center; }
-  }
-  @keyframes float {
-    0%, 100% { transform: translateY(0); }
-    50% { transform: translateY(-20px); }
-  }
-}
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
 
 @layer base {
   html {
@@ -30,11 +8,11 @@
   }
 
   body {
-    @apply bg-background-light text-slate-900 transition-colors duration-300;
+    @apply bg-[#f8fafc] text-slate-900 transition-colors duration-300;
   }
 
   body.dark {
-    @apply bg-background-dark text-slate-100;
+    @apply bg-[#0f172a] text-slate-100;
   }
 }
 
