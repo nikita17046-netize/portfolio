@@ -1,0 +1,340 @@
+{
+  "profile": {
+    "name": "Nikita",
+    "roles": ["Full Stack Developer", "UI Architect", "Creative Coder"],
+    "bio": "Experienced developer specializing in the MERN stack with a focus on creating intuitive, user-centric digital experiences.",
+    "about": {
+      "fullBio": "I am a curious developer who loves turning complex problems into simple, beautiful, and intuitive designs. With over 4 years of experience, I've worked with startups and established brands to build products that scale. My approach is simple: clean code, clear communication, and a user-first mindset.",
+      "image": "https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?q=80&w=1376&auto=format&fit=crop",
+      "interests": ["UI/UX Research", "Technical Writing", "Open Source", "Blockchain Tech"]
+    },
+    "socials": {
+      "github": "https://github.com/nikita-dev",
+      "linkedin": "https://linkedin.com/in/nikita-dev"
+    }
+  },
+  "skills": [
+    { "name": "React.js", "level": 95, "category": "Frontend", "icon": "FaReact" },
+    { "name": "JavaScript (ES6+)", "level": 92, "category": "Frontend", "icon": "SiJavascript" },
+    { "name": "Next.js", "level": 88, "category": "Frontend", "icon": "SiTailwindcss" },
+    { "name": "Node/Express", "level": 85, "category": "Backend", "icon": "FaNodeJs" },
+    { "name": "MongoDB/SQL", "level": 82, "category": "Database", "icon": "SiMongodb" },
+    { "name": "Python", "level": 70, "category": "Backend", "icon": "FaPython" }
+  ],
+  "stats": [
+    { "label": "Projects Completed", "value": "120+" },
+    { "label": "Happy Clients", "value": "80+" },
+    { "label": "Years Experience", "value": "4+" },
+    { "label": "Awards Won", "value": "12" }
+  ],
+  "services": [
+    {
+      "title": "Web Development",
+      "description": "Building lightning-fast, SEO-optimized web applications using modern MERN stack.",
+      "icon": "FaCode"
+    },
+    {
+      "title": "UI/UX Design",
+      "description": "Creating intuitive and aesthetically pleasing user interfaces that convert users into customers.",
+      "icon": "FaPalette"
+    },
+    {
+      "title": "Cloud Architecture",
+      "description": "Deploying and scaling your products on AWS, Vercel, or Netlify with full CI/CD setups.",
+      "icon": "FaCloud"
+    }
+  ],
+  "projects": [
+    {
+      "id": 1,
+      "title": "Zenith E-Commerce",
+      "category": "Fullstack",
+      "image": "https://images.unsplash.com/photo-1472851294608-062f824d29cc?q=80&w=1470&auto=format&fit=crop",
+      "description": "A high-performance enterprise commerce solution featuring real-time inventory and global payments.",
+      "tools": ["React", "Node.js", "Stripe", "Redux"],
+      "liveLink": "https://google.com",
+      "githubLink": "https://github.com",
+      "details": {
+        "problem": "Traditional e-commerce platforms suffered from high bounce rates due to slow page loads and complex checkout flows.",
+        "solution": "Architected a headless commerce solution using Next.js for SSG/ISR, resulting in a 40% improvement in LCP and a 25% increase in conversion rates.",
+        "challenges": "Implementing robust state synchronization across multiple server-side generated pages and optimizing heavy image assets for mobile.",
+        "learnings": "Mastered advanced caching strategies and the intricacies of Stripe's webhooks for reliable payment processing."
+      }
+    },
+    {
+      "id": 2,
+      "title": "Neural Muse AI",
+      "category": "Frontend",
+      "image": "https://images.unsplash.com/photo-1677442136019-21780ecad995?q=80&w=1632&auto=format&fit=crop",
+      "description": "Modern AI dashboard for art generation using sophisticated prompt engineering and multi-model support.",
+      "tools": ["Tailwind", "OpenAI API", "Framer Motion"],
+      "liveLink": "https://google.com",
+      "githubLink": "https://github.com",
+      "details": {
+        "problem": "AI generation tools often provide overwhelming interfaces that intimidate non-technical creative users.",
+        "solution": "Designed a minimal, intentional UI that uses step-by-step progressive disclosure to guide users from prompt to masterpiece.",
+        "challenges": "Managing asynchronous API streams for real-time image generation while maintaining 60FPS UI performance.",
+        "learnings": "Gained deep insights into prompt engineering and efficient handling of large binary data streams in the browser."
+      }
+    },
+    {
+      "id": 3,
+      "title": "Astra Analytics",
+      "category": "Fullstack",
+      "image": "https://images.unsplash.com/photo-1551288049-bb848a55a175?q=80&w=1470&auto=format&fit=crop",
+      "description": "Real-time data visualization platform for SaaS companies with predictive churn modeling.",
+      "tools": ["Next.js", "D3.js", "PostgreSQL"],
+      "liveLink": "https://google.com",
+      "githubLink": "https://github.com",
+      "details": {
+        "problem": "Companies had data but couldn't derive actionable insights in real-time.",
+        "solution": "Built a custom D3 dashboard integrated with a streaming data pipeline.",
+        "challenges": "Handling massive concurrent WebSocket connections.",
+        "learnings": "Advanced SQL optimization and real-time data streaming patterns."
+      }
+    },
+    {
+      "id": 4,
+      "title": "Crypto Pulse",
+      "category": "Frontend",
+      "image": "https://images.unsplash.com/photo-1621761191319-c6fb62004040?q=80&w=1374&auto=format&fit=crop",
+      "description": "A live cryptocurrency tracker with sentiment analysis from social media feeds.",
+      "tools": ["React", "ApexCharts", "CoinGecko API"],
+      "liveLink": "https://google.com",
+      "githubLink": "https://github.com",
+      "details": {
+        "problem": "Traders need more than just price; they need sentiment.",
+        "solution": "Integrated Twitter API to perform real-time sentiment analysis on top coins.",
+        "challenges": "Rate limiting and data normalization from varied sources.",
+        "learnings": "Mastered complex state management and API orchestration."
+      }
+    },
+    {
+      "id": 5,
+      "title": "Eco Flow",
+      "category": "Backend",
+      "image": "https://images.unsplash.com/photo-1497435334941-8c899ee9e8e9?q=80&w=1375&auto=format&fit=crop",
+      "description": "Inventory management API for sustainable supply chains with carbon footprint tracking.",
+      "tools": ["Node.js", "GraphQL", "Redis"],
+      "liveLink": "https://google.com",
+      "githubLink": "https://github.com",
+      "details": {
+        "problem": "Transparency in supply chains is often missing at the carbon level.",
+        "solution": "Created a GraphQL API that calculates carbon offsets for each shipping step.",
+        "challenges": "Complex recursive queries for deep supply chain structures.",
+        "learnings": "Deep understanding of GraphQL performance and backend caching."
+      }
+    },
+    {
+      "id": 6,
+      "title": "Nexus Social",
+      "category": "Fullstack",
+      "image": "https://images.unsplash.com/photo-1522202176988-66273c2fd55f?q=80&w=1471&auto=format&fit=crop",
+      "description": "Decentralized social networking concept with user-owned data and privacy controls.",
+      "tools": ["React", "Firebase", "Web3.js"],
+      "liveLink": "https://google.com",
+      "githubLink": "https://github.com",
+      "details": {
+        "problem": "Centralized social media compromises user data privacy.",
+        "solution": "Built a proof-of-concept social network where data is stored on decentralized nodes.",
+        "challenges": "Ensuring fast data retrieval from a decentralized network.",
+        "learnings": "Exploration of Web3 technologies and decentralized identity."
+      }
+    },
+    {
+      "id": 8,
+      "title": "Zenith Wallet",
+      "category": "Fullstack",
+      "image": "https://images.unsplash.com/photo-1563986768609-322da13575f3?q=80&w=1470&auto=format&fit=crop",
+      "description": "Secure digital wallet with multi-currency support and real-time exchange rates.",
+      "tools": ["React", "Express", "MongoDB"],
+      "liveLink": "https://google.com",
+      "githubLink": "https://github.com",
+      "details": { "problem": "Managing multiple currencies is hard.", "solution": "A centralized secure wallet.", "challenges": "API security.", "learnings": "Encryption." }
+    },
+    {
+      "id": 9,
+      "title": "Aero Travel",
+      "category": "Frontend",
+      "image": "https://images.unsplash.com/photo-1436491865332-7a61a109c0f?q=80&w=1470&auto=format&fit=crop",
+      "description": "Immersive travel booking experience with 3D map integrations.",
+      "tools": ["Three.js", "React", "Tailwind"],
+      "liveLink": "https://google.com",
+      "githubLink": "https://github.com",
+      "details": { "problem": "Travel sites are flat.", "solution": "3D visualization.", "challenges": "Performance.", "learnings": "WebGL." }
+    },
+    {
+      "id": 10,
+      "title": "Health Sync",
+      "category": "Fullstack",
+      "image": "https://images.unsplash.com/photo-1505751172876-fa1923c5c528?q=80&w=1470&auto=format&fit=crop",
+      "description": "Telemedicine platform with real-time patient-doctor video consultations.",
+      "tools": ["WebRTC", "Socket.io", "React"],
+      "liveLink": "https://google.com",
+      "githubLink": "https://github.com",
+      "details": { "problem": "Remote healthcare access.", "solution": "Video consultation.", "challenges": "Latency.", "learnings": "Real-time comms." }
+    },
+    {
+      "id": 11,
+      "title": "Pixel Art Editor",
+      "category": "Frontend",
+      "image": "https://images.unsplash.com/photo-1550745679-3310486da347?q=80&w=1470&auto=format&fit=crop",
+      "description": "Browser-based pixel art creator with layer support and gif export.",
+      "tools": ["Canvas API", "React", "Redux"],
+      "liveLink": "https://google.com",
+      "githubLink": "https://github.com",
+      "details": { "problem": "Lack of simple pixel art tools.", "solution": "Canvas based editor.", "challenges": "Undo/Redo logic.", "learnings": "Canvas state." }
+    },
+    {
+      "id": 12,
+      "title": "Quantum CRM",
+      "category": "Backend",
+      "image": "https://images.unsplash.com/photo-1460925895917-afdab827c52f?q=80&w=1426&auto=format&fit=crop",
+      "description": "High-load CRM backend managing millions of client relationships.",
+      "tools": ["Go", "Docker", "Nats"],
+      "liveLink": "https://google.com",
+      "githubLink": "https://github.com",
+      "details": { "problem": "CRM lag.", "solution": "Microservices in Go.", "challenges": "Data consistency.", "learnings": "Distributed systems." }
+    },
+    {
+      "id": 13,
+      "title": "Lumina Blog",
+      "category": "Frontend",
+      "image": "https://images.unsplash.com/photo-1486312338219-ce68d2c6f44d?q=80&w=1472&auto=format&fit=crop",
+      "description": "A minimal, readability-focused blog template for tech writers.",
+      "tools": ["Astro", "MDX", "Tailwind"],
+      "liveLink": "https://google.com",
+      "githubLink": "https://github.com",
+      "details": { "problem": "Cluttered blogs.", "solution": "Minimalist design.", "challenges": "SEO.", "learnings": "Static generation." }
+    },
+    {
+      "id": 14,
+      "title": "Trade Vision",
+      "category": "Fullstack",
+      "image": "https://images.unsplash.com/photo-1590283603385-17ffb3a7f29f?q=80&w=1470&auto=format&fit=crop",
+      "description": "Stock market dashboard with technical indicator overlays.",
+      "tools": ["React", "TradingView API", "Node.js"],
+      "liveLink": "https://google.com",
+      "githubLink": "https://github.com",
+      "details": { "problem": "Scattered trading data.", "solution": "Unified dashboard.", "challenges": "Large datasets.", "learnings": "Financial APIs." }
+    },
+    {
+      "id": 15,
+      "title": "Sonic Stream",
+      "category": "Fullstack",
+      "image": "https://images.unsplash.com/photo-1493225255756-d9584f8606e9?q=80&w=1470&auto=format&fit=crop",
+      "description": "High-fidelity music streaming service with spatial audio support.",
+      "tools": ["React", "AWS S3", "Howler.js"],
+      "liveLink": "https://google.com",
+      "githubLink": "https://github.com",
+      "details": { "problem": "Audio quality loss.", "solution": "Lossless streaming.", "challenges": "Buffering.", "learnings": "Audio APIs." }
+    },
+    {
+      "id": 16,
+      "title": "Vortex Engine",
+      "category": "Backend",
+      "image": "https://images.unsplash.com/photo-1558494949-ef010ccdcc39?q=80&w=1674&auto=format&fit=crop",
+      "description": "Ultra-fast search engine backend for local libraries.",
+      "tools": ["Rust", "ElasticSearch", "Redis"],
+      "liveLink": "https://google.com",
+      "githubLink": "https://github.com",
+      "details": { "problem": "Slow search.", "solution": "Rust backend.", "challenges": "Indexing.", "learnings": "Search algorithms." }
+    },
+    {
+      "id": 17,
+      "title": "Nebula VR",
+      "category": "Frontend",
+      "image": "https://images.unsplash.com/photo-1592477942940-501170792f9e?q=80&w=1470&auto=format&fit=crop",
+      "description": "Virtual reality store interface for the future of e-commerce.",
+      "tools": ["A-Frame", "React", "Cannon.js"],
+      "liveLink": "https://google.com",
+      "githubLink": "https://github.com",
+      "details": { "problem": "Flat e-comm.", "solution": "VR shopping.", "challenges": "UX in VR.", "learnings": "Physics engines." }
+    },
+    {
+      "id": 18,
+      "title": "Focus Timer",
+      "category": "Frontend",
+      "image": "https://images.unsplash.com/photo-1434030216411-0b793f4b4173?q=80&w=1470&auto=format&fit=crop",
+      "description": "A Pomodoro timer with gamified productivity tracking.",
+      "tools": ["React", "Local Storage", "Framer Motion"],
+      "liveLink": "https://google.com",
+      "githubLink": "https://github.com",
+      "details": { "problem": "Procrastination.", "solution": "Gamification.", "challenges": "State persistence.", "learnings": "Game loops." }
+    },
+    {
+      "id": 19,
+      "title": "Shield VPN",
+      "category": "Backend",
+      "image": "https://images.unsplash.com/photo-1563986768609-322da13575f3?q=80&w=1470&auto=format&fit=crop",
+      "description": "Personal VPN endpoint manager with traffic monitoring.",
+      "tools": ["Python", "WireGuard", "Flask"],
+      "liveLink": "https://google.com",
+      "githubLink": "https://github.com",
+      "details": { "problem": "Privacy.", "solution": "Custom VPN control.", "challenges": "Network security.", "learnings": "Net protocols." }
+    },
+    {
+      "id": 20,
+      "title": "Zen Garden",
+      "category": "Frontend",
+      "image": "https://images.unsplash.com/photo-1585314062340-f1a5a7c9328d?q=80&w=1374&auto=format&fit=crop",
+      "description": "A peaceful, interactive ambient soundscape generator.",
+      "tools": ["Web Audio API", "React", "SVG Animation"],
+      "liveLink": "https://google.com",
+      "githubLink": "https://github.com",
+      "details": { "problem": "Stress.", "solution": "Ambient sounds.", "challenges": "Audio mixing.", "learnings": "Synths." }
+    }
+  ],
+  "blogs": [
+    {
+      "id": 1,
+      "title": "The Art of the 100ms Page Load",
+      "date": "May 12, 2024",
+      "category": "Performance",
+      "excerpt": "Technical breakdown of optimization techniques including code-splitting, tree-shaking, and the power of CDN edges.",
+      "content": "Optimizing web performance isn't just about small assets; it's about the critical rendering path. In this article, I explore how modern frameworks like Vite and Next.js handle data hydration and how we can prune unnecessary execution to achieve instantaneous interaction."
+    },
+    {
+      "id": 2,
+      "title": "Clean Code in the Age of AI Co-pilots",
+      "date": "June 05, 2024",
+      "category": "Developer Culture",
+      "excerpt": "How to maintain architectural integrity when using AI tools for rapid prototyping and logic generation.",
+      "content": "As AI becomes a standard part of our IDE, the role of a developer shifts from a writer to an editor. We must hold AI-generated code to the same (if not higher) standards of readability and testability that we set for ourselves."
+    }
+  ],
+  "experience": [
+    {
+      "title": "Lead Software Engineer",
+      "company": "Innovate Systems",
+      "period": "Jan 2023 - Present",
+      "description": "Driving the migration of legacy monolithic architectures to scalable micro-services. Mentoring 10+ junior developers and overseeing CI/CD pipeline optimizations."
+    },
+    {
+      "title": "Frontend Architect",
+      "company": "Designify Studio",
+      "period": "Oct 2021 - Dec 2022",
+      "description": "Standardized the UI across 5 product lines by creating a comprehensive Design System and React component library used by 50+ engineers."
+    },
+    {
+      "title": "Bachelor of Technology (CS)",
+      "company": "Indian Institute of Technology",
+      "period": "2017 - 2021",
+      "description": "Graduated with honors. Specialized in Advanced Data Structures and Distributed Systems. Winner of the National Hackathon 2020."
+    }
+  ],
+  "testimonials": [
+    {
+      "name": "Sarah Chen",
+      "role": "Product Director @ Adobe",
+      "comment": "Nikita possesses a rare combination of technical depth and aesthetic sensibility. The projects delivered exceeded all our KPIs for performance and user engagement.",
+      "image": "https://randomuser.me/api/portraits/women/42.jpg"
+    },
+    {
+      "name": "David Marcus",
+      "role": "Founder @ MetaPay",
+      "comment": "Incredibly fast execution without compromising on quality. Nikita's ability to communicate complex technical concepts to stakeholders is a massive asset.",
+      "image": "https://randomuser.me/api/portraits/men/32.jpg"
+    }
+  ]
+}
